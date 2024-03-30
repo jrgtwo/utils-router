@@ -1,1 +1,3 @@
-export const Router = () => { }
+export const Router = () => {
+  console.log('Router')
+}
