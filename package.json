@@ -9,6 +9,12 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/main.js",
+      "require": "./dist/main.umd.cjs"
+    }
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
